@@ -15,3 +15,6 @@ kubectl -n argocd patch secret argocd-secret \
 
 # start the GitOps with creation of argo-cd app
 kubectl -n argocd apply -f ./argo-cd/argo-cd-app.yaml
+
+# add kube config to local OpenLens directory
+cp /root/.kube/config /mnt/c/Users/manue/.kube/
