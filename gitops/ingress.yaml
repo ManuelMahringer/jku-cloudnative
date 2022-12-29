@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: production.nginx.com
+#  - host: production.nginx.com
     http:
       paths:
       - path: /
@@ -28,7 +28,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: staging.nginx.com
+#  - host: staging.nginx.com
     http:
       paths:
       - path: /
@@ -37,4 +37,4 @@ spec:
           service:
             name: nginx-service
             port: 
-              number: 80
+              number: 8080
