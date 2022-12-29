@@ -16,5 +16,5 @@ spec:
         backend:
           service:
             name: nginx-service
-            port:
+            port: name-of-service-port
               number: 80
