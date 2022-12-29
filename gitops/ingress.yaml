@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-    - http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
@@ -27,7 +27,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-    - http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
