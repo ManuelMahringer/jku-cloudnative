@@ -8,7 +8,6 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: my.nginx.com
     http:
       paths:
       - path: /
