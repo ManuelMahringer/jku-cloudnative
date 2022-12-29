@@ -5,7 +5,7 @@ metadata:
   namespace: production
 spec:
   selector:
-    app.kubernetes.io/name: nginx
+    app: nginx
   ports:
   - name: name-of-service-port
     protocol: TCP
