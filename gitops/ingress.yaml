@@ -8,8 +8,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-#  - host: production.nginx.com
-    http:
+    - http:
       paths:
       - path: /
         pathType: Prefix
@@ -28,8 +27,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-#  - host: staging.nginx.com
-    http:
+    - http:
       paths:
       - path: /
         pathType: Prefix
