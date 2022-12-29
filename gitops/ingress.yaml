@@ -23,7 +23,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: nginx-ingress-staging
-  namespace: production
+  namespace: staging
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
