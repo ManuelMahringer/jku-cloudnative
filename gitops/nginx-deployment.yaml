@@ -39,5 +39,5 @@ spec:
       - name: nginx
         image: manuelmahringer/dockerrepo:latest
         ports:
-        - containerPort: 8081
+        - containerPort: 80
           name: http-web-svc
